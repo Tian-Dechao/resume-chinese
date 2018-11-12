@@ -1,4 +1,4 @@
-\documentclass[paper=letter,fontsize=11pt]{scrartcl} % KOMA-article class
+\documentclass[paper=letter,fontsize=10pt]{scrartcl} % KOMA-article class
 							
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
@@ -57,6 +57,7 @@ urlcolor=blue]{hyperref}
 \newcommand{\MyName}[3]{ % Name
     \Huge \usefont{OT1}{phv}{b}{n} \begin{center} #1 \end{center}  
          \normalsize \normalfont 
+         \vspace{-10pt}
         \begin{minipage}[t]{0.47\textwidth} \begin{flushright} #2 \end{flushright} \end{minipage}
             \hfill
         \begin{minipage}[t]{0.47\textwidth} #3 \end{minipage} }
@@ -150,16 +151,21 @@ urlcolor=blue]{hyperref}
 
 \MyName{Dechao Tian}{PHONE (1) 412 583-6800}{dechaot@andrew.cmu.edu}
 
+\vspace{-5pt}
 \MySlogan{An euthusiast of statistics and data science, hold a doctor's degree in statistics, have rich experience of applying various statiscial models and machine learning algorithms. }
 
 
 \NewPart{Professional experience}{}
 \WorkEntry{Carnegie Mellon University, USA}{Postdoctoral Research Associate}{2015 - Present} 
-{\begin{itemize}\item{Computational Biology Department, Ma Laboratory - Computational Genomics: research on regulatory network, systems biology, and 3D chromatin organization \item Yes}\end{itemize}}
-\WorkEntry{National University of Singapore, Singapore}{Research Assistant}{2014 - 2015}{\begin{itemize} \item Develop model to identify essential genes by network motifs in regulatory networks \end{itemize}}
+{\begin{itemize}
+\item Develop high-dimensional machine learning algorithms for genomics    
+\item Develop novel statistical models for genomics 
+\item Perform data analysis by applying multiple statistical models 
+\item Write up sample size calculation and power analysis for grant application 
+\end{itemize}}
+\WorkEntry{National University of Singapore, Singapore}{Research Assistant}{2014 - 2015}{\begin{itemize} \item Develop machine learning algorithm for biological networks \end{itemize}}
 \WorkEntry{Singapore Eye Research Institute (SERI), Singapore}{Part-Time Statistician}{2011 - 2015}{\begin{itemize} 
-    \item Provide statistical analysis and consultation for
-     Proteomics $\&$ Microanalysis Laboratory
+    \item Provide statistical analysis and consultation for the Proteomics $\&$ Microanalysis Laboratory
     \item Collaborate with other members from SERI \end{itemize}}
 
 %%% Education
@@ -189,22 +195,31 @@ Thesis advisor: Dr. Zhidong Bai}
 \item \PaperEntry{\textbf{Tian D} and Choi K.P}{Sharp bounds and normalization of wiener-type indices}{PLOS ONE}{8}{11}{2013}{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078448}
 \end{etaremune}
 
-\NewPart{Teaching assistant}{}
-\TeachEntry{ST1131 Introduction to Statistics}
-\TeachEntry{ST1232 Statistics for Life Science}
-\TeachEntry{ST2131 Probability}
+%\NewPart{Teaching assistant}{}
+%\TeachEntry{ST1131 Introduction to Statistics}
+%\TeachEntry{ST1232 Statistics for Life Science}
+%\TeachEntry{ST2131 Probability}
 
 \NewPart{Skills}{}
-\SkillsEntry{Programming (Most used first)}{R, Python, Unix/Linux bash script command, SAS}
-%\SkillsEntry{Statistics}{Sample size computation and power analysis, Hypothesis test, Random matrix theory}
-\SkillsEntry{Bioinformatics tools \& databases}{
-    MEME Suite, bedtools, jucier, UCSC Genome Browser, ENCODE, TCGA }
-\SkillsEntry{Language}{English (using it as daily and working language for 8 years), Chinese (native)}
+\begin{itemize}
+    \item \SkillsEntry{Data analysis}{R, Python scikit-learn, SAS}
+    \item \SkillsEntry{Programming (Most used first)}{Python, Bash, Matlab, SAS}
+%    \item \SkillsEntry{Bioinformatics tools}{ MEME Suite, bedtools, jucier}
+    \item \SkillsEntry{Biological database}{4D Nucleome Data, UCSC Genome Browser, ENCODE, TCGA, Roadmap }
+    \item \SkillsEntry{Language}{English (using it as daily and working language for 8 years), Chinese (native)}
+\end{itemize}
 
 \NewPart{Certificate}{}
-\begin{etaremune}
+\begin{itemize}
 \item Base Programmer for SAS 9
-\end{etaremune}
+\end{itemize}
+
+\NewPart{Hobbies}{}
+
+\begin{itemize}
+    \item Long-distance running
+    \item Tennis
+\end{itemize}
 
 %\NewPart{Posters}{}
 %\begin{etaremune}

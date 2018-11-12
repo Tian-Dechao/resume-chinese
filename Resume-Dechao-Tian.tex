@@ -1,4 +1,4 @@
-\documentclass[paper=letter,fontsize=10pt]{scrartcl} % KOMA-article class
+\documentclass[paper=letter,fontsize=11pt]{scrartcl} % KOMA-article class
 							
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
@@ -31,11 +31,12 @@ urlcolor=blue]{hyperref}
 \addtolength\textheight{-2in}
 \usepackage{layout}
 
-\usepackage{fancyhdr} % personalize foot and page number
-\pagestyle{fancy}
-\fancyhf{}
-\renewcommand{\headrulewidth}{0pt}
-\fancyfoot[R]{Dechao Tian, Ph.D. Page \thepage}
+\pagenumbering{gobble}
+%\usepackage{fancyhdr} % personalize foot and page number
+%\pagestyle{fancy}
+%\fancyhf{}
+%\renewcommand{\headrulewidth}{0pt}
+%\fancyfoot[R]{Dechao Tian, Ph.D. Page \thepage}
 
 %\addtolength{\voffset}{-40pt}
 %\addtolength{\textheight}{20pt}
@@ -152,32 +153,47 @@ urlcolor=blue]{hyperref}
 \MyName{Dechao Tian}{PHONE (1) 412 583-6800}{dechaot@andrew.cmu.edu}
 
 \vspace{-5pt}
-\MySlogan{An euthusiast of statistics and data science, hold a doctor's degree in statistics, have rich experience of applying various statiscial models and machine learning algorithms. }
+\MySlogan{An enthusiast of statistics and data science, hold a doctor's degree in statistics, have rich experience of developing and applying various statistical models and machine learning algorithms. }
 
 
 \NewPart{Professional experience}{}
-\WorkEntry{Carnegie Mellon University, USA}{Postdoctoral Research Associate}{2015 - Present} 
+\WorkEntry{Carnegie Mellon University, USA}{Postdoctoral Research Associate}{April 2015 - Present} 
 {\begin{itemize}
-\item Develop high-dimensional machine learning algorithms for genomics    
-\item Develop novel statistical models for genomics 
-\item Perform data analysis by applying multiple statistical models 
+\item Develop high-dimensional machine learning algorithms based on graphical model and graph theory for genomics    
+\item Build a novel hypothesis test model based on random matrix theory to identify significant patterns
+\item Analyze genomic data by applying multiple statistical models and machine learning algorithms
 \item Write up sample size calculation and power analysis for grant application 
 \end{itemize}}
-\WorkEntry{National University of Singapore, Singapore}{Research Assistant}{2014 - 2015}{\begin{itemize} \item Develop machine learning algorithm for biological networks \end{itemize}}
-\WorkEntry{Singapore Eye Research Institute (SERI), Singapore}{Part-Time Statistician}{2011 - 2015}{\begin{itemize} 
-    \item Provide statistical analysis and consultation for the Proteomics $\&$ Microanalysis Laboratory
-    \item Collaborate with other members from SERI \end{itemize}}
+\WorkEntry{National University of Singapore, Singapore}{Research Assistant}{September 2014 - April 2015}{\begin{itemize} \item Build a novel classification model to identify marker genes from biological networks \end{itemize}}
+\WorkEntry{Singapore Eye Research Institute (SERI), Singapore}{Part-Time Statistician}{February 2011 - April 2015}{\begin{itemize} 
+    \item Analyze multiple clinical data in published scientific papers by applying various statistical models  
+%    \item Provide statistical analysis and consultation for the Proteomics $\&$ Microanalysis Laboratory
+%    \item Collaborate with other members from SERI 
+\end{itemize}}
 
 %%% Education
 %%% ------------------------------------------------------------
 \NewPart{Education}{}
-\EducationEntry{Ph.D. in Statistics and Applied Probability}{2010 - 2015}{National University of Singapore, Singapore}{Thesis title: Biological Network Analysis and Comparison\\
+\EducationEntry{Ph.D. in Statistics and Applied Probability}{June 2015}{National University of Singapore, Singapore}{Thesis title: Biological Network Analysis and Comparison\\
 Thesis advisor: Dr. Kwok Pui Choi}
 \sepspace
-\EducationEntry{M.S. in Probability and Mathematical Statistics}{2009 - 2011}{Northeast Normal University, China}{Thesis title: Random Network Models' Discrimination \\
+\EducationEntry{M.S. in Probability and Mathematical Statistics}{June  2011}{Northeast Normal University, China}{Thesis title: Random Network Models' Discrimination \\
 Thesis advisor: Dr. Zhidong Bai}
 \sepspace
-\EducationEntry{B.S. in Mathematics and Applied Mathematics}{2005 - 2009}{Northeast Normal University, China}{}
+\EducationEntry{B.S. in Mathematics and Applied Mathematics}{June 2009}{Northeast Normal University, China}{}
+
+\NewPart{Skills}{}
+\begin{itemize}
+    \item \SkillsEntry{Programming (Most used first)}{Python, Bash, Matlab}
+    \item \SkillsEntry{Data analysis}{R, Python scikit-learn, SAS}
+    \item \SkillsEntry{Biological database}{4D Nucleome Data, UCSC Genome Browser, ENCODE, TCGA }
+    \item \SkillsEntry{Language}{English (using it as daily and working language for 8 years), Chinese (native)}
+\end{itemize}
+
+\NewPart{Certificate}{}
+\begin{itemize}
+\item Base Programmer for SAS 9
+\end{itemize}
 
 \NewPart{Publications}{}
 \begin{etaremune}
@@ -195,30 +211,10 @@ Thesis advisor: Dr. Zhidong Bai}
 \item \PaperEntry{\textbf{Tian D} and Choi K.P}{Sharp bounds and normalization of wiener-type indices}{PLOS ONE}{8}{11}{2013}{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078448}
 \end{etaremune}
 
-%\NewPart{Teaching assistant}{}
-%\TeachEntry{ST1131 Introduction to Statistics}
-%\TeachEntry{ST1232 Statistics for Life Science}
-%\TeachEntry{ST2131 Probability}
-
-\NewPart{Skills and LImi}{}
-\begin{itemize}
-    \item \SkillsEntry{Data analysis}{R, Python scikit-learn, SAS}
-    \item \SkillsEntry{Programming (Most used first)}{Python, Bash, Matlab, SAS}
-%    \item \SkillsEntry{Bioinformatics tools}{ MEME Suite, bedtools, jucier}
-    \item \SkillsEntry{Biological database}{4D Nucleome Data, UCSC Genome Browser, ENCODE, TCGA, Roadmap }
-    \item \SkillsEntry{Language}{English (using it as daily and working language for 8 years), Chinese (native)}
-\end{itemize}
-
-\NewPart{Certificate}{}
-\begin{itemize}
-\item Base Programmer for SAS 9
-\end{itemize}
 
 \NewPart{Hobbies}{}
-
 \begin{itemize}
-    \item Long-distance running
-    \item Tennis
+    \item Attend toastmasters weakly
 \end{itemize}
 
 %\NewPart{Posters}{}

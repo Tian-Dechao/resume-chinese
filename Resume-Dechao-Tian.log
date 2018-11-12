@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 NOV 2018 20:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 NOV 2018 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -40,11 +40,11 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 132.
-Class scrartcl Info: File `scrsize10pt.clo' used to setup font sizes on input l
+Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input l
 ine 2051.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrsize10pt.clo
-File: scrsize10pt.clo 2016/05/10 v3.20 KOMA-Script font size class option (10pt
+(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2016/05/10 v3.20 KOMA-Script font size class option (11pt
 )
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/typearea.sty
@@ -61,21 +61,21 @@ Package typearea, 2016/05/10 v3.20 KOMA-Script package (type area)
 \ta@temp=\skip45
 \footheight=\skip46
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 8
+(typearea)             DIV  = 10
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 614.295pt
-(typearea)              \textwidth      = 383.9344pt
-(typearea)              DIV departure   = -7%
-(typearea)              \evensidemargin = 42.91031pt
-(typearea)              \oddsidemargin  = 42.91031pt
+(typearea)              \textwidth      = 430.00653pt
+(typearea)              DIV departure   = -9%
+(typearea)              \evensidemargin = 19.87424pt
+(typearea)              \oddsidemargin  = 19.87424pt
 (typearea)             \paperheight     = 794.96999pt
-(typearea)              \textheight     = 502.0pt
-(typearea)              \topmargin      = -5.89874pt
-(typearea)              \headheight     = 15.0pt
-(typearea)              \headsep        = 18.0pt
-(typearea)              \topskip        = 10.0pt
-(typearea)              \footskip       = 42.0pt
-(typearea)              \baselineskip   = 12.0pt
+(typearea)              \textheight     = 568.60025pt
+(typearea)              \topmargin      = -30.173pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
 (typearea)              on input line 1528.
 )
 \c@part=\count80
@@ -514,53 +514,34 @@ Package: layout 2014/10/28 v1.2c Show layout parameters
 \PositionY=\count157
 \ArrowLength=\count158
 )
-
-Class scrartcl Warning: Usage of package `fancyhdr' together
-(scrartcl)              with a KOMA-Script class is not recommended.
-(scrartcl)              I'd suggest to use 
-(scrartcl)              package `scrlayer-scrpage'.
-(scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 35.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip69
-\f@ncyO@elh=\skip70
-\f@ncyO@erh=\skip71
-\f@ncyO@olh=\skip72
-\f@ncyO@orh=\skip73
-\f@ncyO@elf=\skip74
-\f@ncyO@erf=\skip75
-\f@ncyO@olf=\skip76
-\f@ncyO@orf=\skip77
-)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
-\spacebox=\skip78
+\spacebox=\skip69
 
 (./Resume-Dechao-Tian.aux)
 \openout1 = `Resume-Dechao-Tian.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-LaTeX Info: Redefining \microtypecontext on input line 141.
+LaTeX Info: Redefining \microtypecontext on input line 142.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -619,15 +600,15 @@ e
 * \textheight=650.43pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=19.8752pt
-* \topmargin=-33.0pt
-* \headheight=15.0pt
-* \headsep=18.0pt
-* \topskip=10.0pt
-* \footskip=42.0pt
-* \marginparwidth=76.78687pt
+* \topmargin=-37.40001pt
+* \headheight=17.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=61.42949pt
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -638,7 +619,7 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring ON on input line 141.
+Package hyperref Info: Link coloring ON on input line 142.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -647,15 +628,15 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count165
 )
-LaTeX Info: Redefining \ref on input line 141.
-LaTeX Info: Redefining \pageref on input line 141.
-LaTeX Info: Redefining \nameref on input line 141.
+LaTeX Info: Redefining \ref on input line 142.
+LaTeX Info: Redefining \pageref on input line 142.
+LaTeX Info: Redefining \nameref on input line 142.
 
 (./Resume-Dechao-Tian.out) (./Resume-Dechao-Tian.out)
 \@outlinefile=\write3
 \openout3 = `Resume-Dechao-Tian.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 152.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 153.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1phv.fd
@@ -672,28 +653,46 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 158.
+ne 159.
 
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 165.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 166.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 165.
-LaTeX Font Info:    Try loading font information for U+msa on input line 169.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 166.
 
+
+Class scrartcl Warning: incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 176.
+
+
+Class scrartcl Warning: incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 185.
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 187.
+LaTeX Font Info:    Try loading font information for U+msa on input line 187.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 169.
+LaTeX Font Info:    Try loading font information for U+msb on input line 187.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -707,7 +706,7 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 173.
+ne 193.
 
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
@@ -715,7 +714,7 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 182.
+ne 198.
 
 [1
 
@@ -726,55 +725,40 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 203.
+ne 215.
 
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 205.
-
-Class scrartcl Warning: incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input li
-ne 212.
-
-
-Class scrartcl Warning: incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input li
-ne 217.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
-[2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.234 \end{document}
+                     [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
  (./Resume-Dechao-Tian.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 234.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 234.
 Package rerunfilecheck Info: File `Resume-Dechao-Tian.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 234.
  ) 
 Here is how much of TeX's memory you used:
- 12297 strings out of 493014
- 194366 string characters out of 6133351
- 443061 words of memory out of 5000000
- 15617 multiletter control sequences out of 15000+600000
- 14309 words of font info for 52 fonts, out of 8000000 for 9000
+ 12160 strings out of 493014
+ 192788 string characters out of 6133351
+ 441453 words of memory out of 5000000
+ 15483 multiletter control sequences out of 15000+600000
+ 14258 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,54p,8497b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,7n,54p,8497b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on Resume-Dechao-Tian.pdf (2 pages, 80346 bytes).
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
+Output written on Resume-Dechao-Tian.pdf (2 pages, 59096 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 11265 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 41 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
+ 10753 words of extra memory for PDF output out of 12000 (max. 10000000)
 

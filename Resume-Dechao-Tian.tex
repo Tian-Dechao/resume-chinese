@@ -63,6 +63,18 @@ urlcolor=blue]{hyperref}
             \hfill
         \begin{minipage}[t]{0.47\textwidth} #3 \end{minipage} }
 
+\newcommand{\MyNamelink}[4]{ % Name
+    \Huge \usefont{OT1}{phv}{b}{n} \begin{center} #1 \end{center}  
+         \normalsize \normalfont 
+         \vspace{-10pt}
+        \begin{minipage}[t]{0.30\textwidth} \begin{flushright} #2 \end{flushright} \end{minipage}
+            \hfill
+        \begin{minipage}[t]{0.30\textwidth} \begin{center} #3 \end{center} \end{minipage} 
+            \hfill
+        \begin{minipage}[t]{0.30\textwidth} #4 \end{minipage} 
+            }
+
+
 \newcommand{\MySlogan}[1]{ % Slogan}{optional)
     \noindent \begin{center} #1 \end{center}
 		\par \normalsize \normalfont}
@@ -150,7 +162,8 @@ urlcolor=blue]{hyperref}
 %		\includegraphics[width=0.2\textwidth]{Appelbaum.JPG}
 %\end{wrapfigure}
 
-\MyName{Dechao Tian}{PHONE (1) 412-583-6800}{dechaot@andrew.cmu.edu}
+%\MyName{Dechao Tian}{PHONE (1) 412-583-6800}{dechaot@andrew.cmu.edu}
+\MyNamelink{Dechao Tian}{PHONE (1) 412-583-6800}{dechaot@andrew.cmu.edu}{https://tian-dechao.github.io}
 
 \vspace{8pt}
 \MySlogan{An enthusiast of statistics and data science, hold a doctor's degree in statistics, have rich experience of developing and applying various statistical models and machine learning algorithms. }

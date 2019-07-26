@@ -1,5 +1,5 @@
- \documentclass[paper=letter,fontsize=11pt]{scrartcl} % KOMA-article class
-							
+\documentclass[paper=letter,fontsize=11pt]{scrartcl} % KOMA-article class
+\usepackage[utf8]{ctex}
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
 \usepackage[protrusion=true,expansion=true]{microtype}
@@ -94,14 +94,23 @@ urlcolor=blue]{hyperref}
     \noindent #1 \par }
 		
 \newcommand{\EducationEntry}[4]{
-		\noindent \uppercase{#3}  \par  % Duration
-		\noindent \textit{#1, #2}         % School
+		\noindent 
+		\begin{minipage}[t]{0.3\textwidth} \begin{center} #1 \end{center} \end{minipage}
+            \hfill
+        \begin{minipage}[t]{0.25\textwidth} \begin{center} #2 \end{center} \end{minipage} 
+            \hfill
+        \begin{minipage}[t]{0.1\textwidth} #3 \end{minipage} 
+        \begin{minipage}[t]{0.1\textwidth} #4 \end{minipage} 
+		%\noindent \textit{#1, #2}         % School
+
+		%\noindent \uppercase{#3}  \par  % Duration
+		%\noindent \textit{#1, #2}         % School
 		%\normalsize 
         \par }
 
 \newcommand{\WorkEntry}[4]{				  % Same as \EducationEntry
-		\noindent \uppercase{#1}  \par % Company
-		\noindent \textit{#2, #3} \par % title, duration
+		\noindent {#1}  \par % Company
+		\noindent {#2, #3} \par % title, duration
         \noindent\hangindent=2em\hangafter=0 \small #4 % Description
 		\normalsize \par}
 
@@ -163,60 +172,78 @@ urlcolor=blue]{hyperref}
 %\end{wrapfigure}
 
 %\MyName{Dechao Tian}{PHONE (1) 412-583-6800}{dechaot@andrew.cmu.edu}
-\MyNamelink{Dechao Tian}{PHONE (1) 412-583-6800}{dechaotian@gmail.com}{https://tian-dechao.github.io}
+\MyNamelink{田德朝}{电话 (1) 412-583-6800}{dechaotian@gmail.com}{https://tian-dechao.github.io}
 
 \vspace{6pt}
-\MySlogan{An enthusiast of statistics and data science, hold a doctor's degree in statistics, have rich experience of developing and applying various statistical models and machine learning algorithms. }
+\MySlogan{
+统计学和数据科学热爱者，统计学博士，有丰富的统计模型和机器学习算法的开发和应用经验
+%An enthusiast of statistics and data science, hold a doctor's degree in statistics, have rich experience of developing and applying various statistical models and machine learning algorithms. 
+}
 \vspace{5pt}
 
 
-\NewPart{Professional experience}{}
-\WorkEntry{Centers for Disease Control and Prevention , USA}{ORISE Fellow}{April 2019 - Present} 
+%\NewPart{Professional experience}{}
+\NewPart{工作经历}{}
+\WorkEntry{美国疾病控制与预防中心}{数理统计师}{2019年4月 至今} 
 {\begin{itemize}
-\item Develop advanced machine learning algorithms to identify anomaly clusters from high-dimensional character Whole-genome sequencing data and linked epidemiological data. 
-\item Teach R software.
+\item  开发机器学习模型从大维基因数据和临床数据中检测异常类
+\item 开发开源互动Web应用用于大数据可视化
+\item 教授R 统计编程语言
 \end{itemize}}
-\WorkEntry{Carnegie Mellon University, USA}{Postdoctoral Research Associate}{April 2015 - March 2019} 
+\WorkEntry{卡内基梅隆大学}{博士后研究员}{2015年4月 至 2019年3月} 
 {\begin{itemize}
-\item Develop high-dimensional machine learning algorithms based on graphical model and graph theory for genomics.
-\item Build a novel hypothesis test model based on random matrix theory to identify significant spatial patterns.
-\item Analyze genomic data by applying multiple statistical models and machine learning algorithms.
-\item Write up sample size calculation and power analysis for grant application. 
+\item 开发基于图模型和图论的高维机器学习算法
+\item 开发基于大维随机矩阵的统计假设检验方法鉴别有显著区别的空间结构
+\item 样本量计算和功效分析
+%\item Develop high-dimensional machine learning algorithms based on graphical model and graph theory for genomics.
+%\item Build a novel hypothesis test model based on random matrix theory to identify significant spatial patterns.
+%\item Analyze genomic data by applying multiple statistical models and machine learning algorithms.
+%\item Write up sample size calculation and power analysis for grant application. 
 \end{itemize}}
-\WorkEntry{National University of Singapore, Singapore}{Research Assistant}{September 2014 - April 2015}{\begin{itemize} \item Build a novel classification model to identify marker genes from biological networks. \end{itemize}}
-\WorkEntry{Singapore Eye Research Institute (SERI), Singapore}{Part-Time Statistician}{February 2011 - April 2015}{\begin{itemize} 
-    \item Analyze multiple clinical data by applying various statistical models.  
+\WorkEntry{新加坡国立大学}{研究助理}{2014年9月 - 2015年4月}{
+\begin{itemize} 
+\item 开发基于图模型子图的排序方法并应用到生物网络中鉴别核心基因
+%Build a novel classification model to identify marker genes from biological networks.
+\end{itemize}}
+\WorkEntry{新加坡眼科研究所}{兼职统计师}{2011年2月 - 2015年4月}
+{\begin{itemize} 
+    \item 应用多种统计模型分析临床数据
+    \item 提供统计咨询
+   % \item Analyze multiple clinical data by applying various statistical models.  
 %    \item Provide statistical analysis and consultation for the Proteomics $\&$ Microanalysis Laboratory
 %    \item Collaborate with other members from SERI 
 \end{itemize}}
 
 %%% Education
 %%% ------------------------------------------------------------
-\NewPart{Education}{}
-\EducationEntry{Ph.D. in Statistics and Applied Probability}{June 2015}{National University of Singapore, Singapore}{Thesis title: Biological Network Analysis and Comparison\\
-Thesis advisor: Dr. Kwok Pui Choi}
+\NewPart{教育背景}{}
+\EducationEntry{2010年8月 -- 2015年4月}{新加坡国立大学}{统计系}{博士} 
 \sepspace
-\EducationEntry{M.S. in Probability and Mathematical Statistics}{June  2011}{Northeast Normal University, China}{Thesis title: Random Network Models' Discrimination \\
-Thesis advisor: Dr. Zhidong Bai}
+\EducationEntry{2009年9月 -- 2011年6月}{东北师范大学}{统计系}{硕士} 
 \sepspace
-\EducationEntry{B.S. in Mathematics and Applied Mathematics}{June 2009}{Northeast Normal University, China}{}
+\EducationEntry{2005年9月 -- 2009年6月}{东北师范大学}{数学系}{学士}
 
-\NewPart{Skills}{}
+\NewPart{技能}{}
 \begin{itemize}
-    \item \SkillsEntry{Programming (Most used first)}{Python, Bash, Matlab.}
-    \item \SkillsEntry{Data analysis}{R, Python scikit-learn, SAS.}
-    \item \SkillsEntry{Biological database}{4D Nucleome Data, UCSC Genome Browser, ENCODE, TCGA.}
-    \item \SkillsEntry{Language}{English (using it as daily and working language for 8 years), Chinese (native).}
+    \item \SkillsEntry{编程语言}{Python, Bash, Matlab}
+    \item \SkillsEntry{数据分析}{R, Python scikit-learn, SAS}
+    \item \SkillsEntry{数据可视化}{Shiny}
+    %\item \SkillsEntry{Biological database}{4D Nucleome Data, UCSC Genome Browser, ENCODE, TCGA.}
+    %\item \SkillsEntry{Language}{English (using it as daily and working language for 8 years), Chinese (native).}
+\end{itemize}
+\NewPart{语言}{}
+\begin{itemize}
+    \item 英语： 熟练
 \end{itemize}
 
-\NewPart{Certificate}{}
+\NewPart{获得证书}{}
 \begin{itemize}
-\item Base Programmer for SAS 9.
+\item SAS Base 认证
 \end{itemize}
 
-\NewPart{Publications}{}
+\NewPart{发表论文}{}
 \begin{etaremune}
-\item \ManEntry{\textbf{Tian D}$^\star$, Zhang R$^\star$, Zhang Y, and Ma J}{MOCHI enables discovery of heterogeneous interactome modules in 3D nucleome}{bioRxiv, doi: https://doi.org/10.1101/542092. First round revision for Genome Research}
+\item \ManEntry{\textbf{Tian D}$^\star$, Zhang R$^\star$, Zhang Y, and Ma J}{MOCHI enables discovery of heterogeneous interactome modules in 3D nucleome}{bioRxiv, doi: https://doi.org/10.1101/542092.}
 \item \ManEntry{\textbf{Tian D}$^\star$, Zhu X$^\star$, and Ma J}{Diffdomains: model-based identification of significantly reshaped chromatin domains from Hi-C contact matrices between normal and disease conditions} { In Preparation}
 \item \ManEntry{\textbf{Tian D} and Ma J}{Exploiting the interplay between chromatin interactome and transcriptional regulatory network}{In Preparation}
 \item \PaperEntry{\textbf{Tian D}, Gu Q and Ma J}{Identifying gene regulatory network rewiring using latent differential graphical models}{Nucleic Acids Research}{44}{17}{2016}{https://academic.oup.com/nar/article/44/17/e140/2468041}  
@@ -251,3 +278,4 @@ Thesis advisor: Dr. Zhidong Bai}
 %\sepspace
 %\ReferenceEntry{Zhidong Bai, Ph.D.}{Professor, Probability\\ Northeast Normal University, China}{Shool of Mathematics and Statistics\\Northeast Normal University \\5268 Renmin Street, Changchun, Jilin 130024, China\\Tel:(+86) 0431-85098161\\baizd@nenu.edu.cn}
 \end{document}
+
